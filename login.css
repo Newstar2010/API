@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background:url("./img/giyu-tomioka-in-blue-ocean-137wavpqrk6013db-137wavpqrk6013db.jpg")no-repeat center/cover ;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 65px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(0, 68, 255));
+    text-align: center;
+    padding-top: 60px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+input{
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+    outline: none;
+    background: transparent;
+    color: aqua;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 5px solid aqua;
+}
+button{
+    width: 120px;
+    height: 40px;
+    border-radius:20px 0px 20px 0px ;
+    background: linear-gradient(35deg, aqua, blue, aqua);
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-left:4px solid red;
+    border-right:4px solid blue;
+    margin-top: 20px;
+    transition: .4s;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgb(0, 68, 255);
+}
